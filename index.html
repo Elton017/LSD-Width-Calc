@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>LSD Width Calculator</h1>
+        <div class="row1">
+            <label for="quantity">Air Quantity (L/s)</label>
+            <input type="number" id="quantity" name="quantity" value="50">
+        </div>
+        <div class="row2">
+            <label for="velocity">Velocity (L/s)</label>
+            <input type="number" id="velocity" name="velocity" value="3">
+        </div>
+        <div class="row3">
+            <label for="depth">Grille Depth (mm)</label>
+            <input type="number" name="depth" id="depth" value="82">
+        </div>
+        <div class="row4">
+            <label for="freearea">Free Area (%)</label>
+            <input type="number" name="freearea" id="freearea" value="50">
+        </div>
+        <div id="resultrow">
+            <label>Min Width:</label>
+            <label id="result"></label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
